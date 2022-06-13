@@ -347,7 +347,8 @@ function exercise1(num1) {
   // Congrats, you made it to the end! You rock!
   // Did you find this easy or hard? If you used references, which ones helped you?
   // Please answer in a comment below.
-  // The exercises were fairly easy to complete. I used freecodecamp, W3 school as refernces. 
+  // The exercises were more challenging to complete. Exercies 9 was a bit tricky for me because 
+  //I could not find the condition needed to return boolean, but  I used W3 school and stackoverflow as refernces. 
   
   // Email your file to us or commit your file to GitHub and email us a link.
 
