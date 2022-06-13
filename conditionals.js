@@ -264,39 +264,49 @@ function exercise1(num1) {
   // "Please send a number, that was a <data type>."
   // for example, if item===true, the value should be:
   // "Please send a number, that was a boolean."
+  
   function exercise9(item) {
     let answer9;
+    
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
+   
     if(isNaN(item) === true) {
-    answer9 = "Please send a number, that was a " + typeof item + ".";  
-    } else if(item === 1){
-      answer9 = "You won!"; 
-    }else if (item === 7){
-      answer9 = "You are lucky!";
-    }else if(item ===101){
-      answer9 = "Welcome to coding 101!";
-    }else if (item ===1000000){
-      answer9 = "You are one in a million!";
-    }else{
-      answer9 = "Thanks for that!"; 
+      answer9 = "Please send a number, that was a " + typeof item; 
     }
-    // --------------------------------------------
-    // And above here
-    // --------------------------------------------
-    return answer9;
-  }
-  
-  console.log(exercise9("Yes")); 
-  console.log(exercise9(false)); 
-  console.log(exercise9(1)); 
-  console.log(exercise9(7)); 
-  console.log(exercise9(101));
-  console.log(exercise9(1000000)); 
-  console.log(exercise9(30)); 
-  
-  
+    else if(item === 1){ 
+      answer9="You won!";
+    }else if(item === 7){
+      answer9="You are lucky!";
+    }else if(item === 101){
+      answer9="Welcome to coding 101!"; 
+    }else if(item === 1000000){ 
+      answer9="You are one in a million!";
+    }else if(item === true || item ===false){
+      answer9 = "Please send a number, that was a " + typeof item;
+    }else{ 
+      answer9 = "Thanks for that!";
+    }
+      // --------------------------------------------
+      // And above here
+      // --------------------------------------------
+      return answer9;
+    }
+    
+    console.log(exercise9(1));
+    console.log(exercise9(101));
+    console.log(exercise9(7));
+    console.log(exercise9(1000000));
+    console.log(exercise9(5));
+    console.log(exercise9('gt'));
+    console.log(exercise9(7));
+    console.log(exercise9());
+    console.log(exercise9(false)); 
+    console.log(exercise9({ }));
+    console.log(exercise9(Boolean));
+    console.log(exercise9(0.0314E+2));
+    console.log(exercise9(true)); 
   
   // EXERCISE 10.
   // This question is a modified version of a classic programming question
@@ -340,3 +350,9 @@ function exercise1(num1) {
   // The exercises were fairly easy to complete. I used freecodecamp, W3 school as refernces. 
   
   // Email your file to us or commit your file to GitHub and email us a link.
+
+
+  
+
+  
+  
