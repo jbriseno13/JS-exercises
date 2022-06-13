@@ -138,7 +138,7 @@ const myAnswerForExercise22 = "true";
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//These exercises were fairly easy. The wording on exercies 10-12 was a bit confusion but freecodecamp, W3 school was helpful. 
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
