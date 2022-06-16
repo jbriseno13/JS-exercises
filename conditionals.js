@@ -272,7 +272,7 @@ function exercise1(num1) {
     // Write your code for the exercise below here:
     // --------------------------------------------
    
-    if(isNaN(item) === true) {
+    if(typeof(item) !== "number") {
       answer9 = "Please send a number, that was a " + typeof item; 
     }
     else if(item === 1){ 
@@ -283,8 +283,8 @@ function exercise1(num1) {
       answer9="Welcome to coding 101!"; 
     }else if(item === 1000000){ 
       answer9="You are one in a million!";
-    }else if(item === true || item ===false){
-      answer9 = "Please send a number, that was a " + typeof item;
+    //}else if(item === true || item ===false){
+      //answer9 = "Please send a number, that was a " + typeof item;
     }else{ 
       answer9 = "Thanks for that!";
     }
@@ -351,8 +351,10 @@ function exercise1(num1) {
   
   // Email your file to us or commit your file to GitHub and email us a link.
 
+  console.log("Hi"); 
 
   
+
 
   
   
