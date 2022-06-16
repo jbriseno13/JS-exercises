@@ -5,7 +5,7 @@ while (i <= 5){
   console.log(i);
   i++;
 }
-console.log("seperate"); //seperator between problems
+
 
 
 // Exercise 2. Write a 'do while' loop that prints the integers (whole numbers)
@@ -22,14 +22,14 @@ do {
  num++;
 }while(num <= 5);
 
-console.log("seperate"); //sperate between problems; 
+
 
 // Exercise 3. Write a 'for' loop that prints the integers (whole numbers) between 1 and 5 (inclusive). 
 
 for(let i = 1; i <=5; i++){
  console.log(i); 
 }
-console.log("Seperate"); 
+
 
 
 //Exercise 4. Now we want a loop that prints the integers
@@ -40,7 +40,7 @@ const loopingOne = [];
 for(let l = 10; l >=1; l--) {
   console.log(l);
 }
-console.log("Seperate end of For Loop"); 
+
 
 //While Loop
 const loopingTwo = [];
@@ -50,7 +50,7 @@ while(m >= 2) {
   loopingTwo.push(m);
   console.log(m); 
 } 
-console.log("Seperate end of While Loop"); 
+
 
 // Do While 
 const loopingThree = []; 
@@ -63,7 +63,7 @@ do{
 }
  while(n >=1); 
 
-console.log("seperate end of Do While loop");
+
 
 
 //Exercise 5. Write a loop that prints the integers from 7 to 27. Write this
@@ -73,7 +73,7 @@ console.log("seperate end of Do While loop");
 for(let i = 7; i <= 27; i++){
  console.log(i); 
 } 
-console.log("End of for loop Q5"); 
+ 
 
 //2. While Loop
 let j = 7; 
@@ -81,7 +81,7 @@ while(j <= 27){
  console.log(j);
  j++;
 }
-console.log("end of while loop Q5"); 
+
 
 //3. Do While Loop
 i = 7; //didn't use let, if let was used change i to dif letter
@@ -89,7 +89,7 @@ do{
  console.log(i);
  i++;
 }while( i <= 27); 
-console.log("End of Do While Loop Q5"); 
+
 
 
 //Exercise 6. Write a loop that prints numbers between 0 and 100, counting by tens.
@@ -100,7 +100,7 @@ console.log("End of Do While Loop Q5");
 for(let k = 10; k <= 100; k+= 10){
  console.log(k);
 }
-console.log("End of for loop Q6"); 
+
 
 //While Loop
 let l = 10;
@@ -108,7 +108,7 @@ while (l <= 100){
  console.log(l);
  l+=10;
 }
-console.log("End of while loop Q6"); 
+
 
 //Do While Loop 
 let z = 10; 
@@ -116,7 +116,7 @@ do{
  console.log(z); 
  z+=10;
 }while(z <=100); 
-console.log("End of do while loop Q6"); 
+
 
 
 
@@ -135,7 +135,7 @@ while(counterFour >= -100){
  console.log("HELP ME!");
  counterFour--;
 }
-console.log("End of Q7"); 
+
 
 //Exercise 8. Make a variable that contains your favorite integer. Write a loop (your choice which type) that prints the integers from 0 to that number.
 
@@ -143,7 +143,7 @@ const favoriteNum = 7;
 for(let i = 0; i <= favoriteNum; i++){
  console.log(i); 
 }
-console.log("End of Q8"); 
+
 
 
 
@@ -164,7 +164,7 @@ for(let i = 0; i <= 100; i++){
    console.log(myFavoriteNum + " my favorite number");
  }
 }
-console.log("End of Q9"); 
+
 
 
 
