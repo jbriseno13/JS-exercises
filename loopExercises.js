@@ -11,10 +11,7 @@ while (i <= 5){
 // Exercise 2. Write a 'do while' loop that prints the integers (whole numbers)
 //between 1 and 5 (inclusive).
 
-//do{
- //block of code
-//}
-// while (condition);
+
 
 let num = 1; 
 do {
@@ -36,34 +33,27 @@ for(let i = 1; i <=5; i++){
 //counting DOWN from 10 to 1 (inclusive). Write three loops that do this, to practice writing loops in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
 //For Loop
-const loopingOne = []; 
-for(let l = 10; l >=1; l--) {
-  console.log(l);
+for(let i = 10; i >= 1; i--){
+  console.log(i); 
 }
+
 
 
 //While Loop
-const loopingTwo = [];
-let m = 11; 
-while(m >= 2) {
-  m--;
-  loopingTwo.push(m);
-  console.log(m); 
-} 
+let a = 10; 
+while( a >= 1){
+  console.log(a);
+  a--
+}
 
 
 // Do While 
-const loopingThree = []; 
-let n = 10; 
-
+let k = 10; 
 do{
- loopingThree.push(n); 
-   console.log(n); //printing the condition
-    n--;
+  console.log(k); 
+  k--;
 }
- while(n >=1); 
-
-
+  while( k >= 1); 
 
 
 //Exercise 5. Write a loop that prints the integers from 7 to 27. Write this
@@ -84,11 +74,11 @@ while(j <= 27){
 
 
 //3. Do While Loop
-i = 7; //didn't use let, if let was used change i to dif letter
+let m = 7; 
 do{
- console.log(i);
- i++;
-}while( i <= 27); 
+ console.log(m);
+ m++;
+}while( m <= 27); 
 
 
 
@@ -97,8 +87,8 @@ do{
 // Write this loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
 //For Loop
-for(let k = 10; k <= 100; k+= 10){
- console.log(k);
+for(let i = 10; i <= 100; i+= 10){
+ console.log(i);
 }
 
 
@@ -129,6 +119,11 @@ do{
 //    console.log("HELP ME!");
 //    counterFour--;
 //  }
+
+//Comments: 
+//counterFour is defined as 1. The loop runs as long as counterFour is less than 2. 
+//Since 1 is less than 2,
+//counterFour will continue to decrement from 1. The loop will continue to run. 
 
 let counterFour = 0; 
 while(counterFour >= -100){
@@ -161,7 +156,7 @@ for(let i = 0; i <= 100; i++){
  if(i !== myFavoriteNum){
    console.log(i + " not my favorite number");
  }else{
-   console.log(myFavoriteNum + " my favorite number");
+   console.log(myFavoriteNum + " my favorite number!");
  }
 }
 
@@ -170,6 +165,9 @@ for(let i = 0; i <= 100; i++){
 
 //Exercise 10. In some of the exercises above, we had you write all 3 types of loops, for practice. But in real life, how would you decide which type of loop to use? You might not have an exact answer, but spend a few minutes thinking about the different types of loops and/or doing some research and write down your thoughts in a comment below:
 
+//I would choose a for loop if I want the loop to iterate through an array. 
+//I would chose a while loop if I wanted the loop to run as long a specifice condition is true. 
+//I would use a do while loop if I wanted to loop to run at least one time before the condition is met. 
 
 
 
