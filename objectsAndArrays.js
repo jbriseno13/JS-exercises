@@ -122,5 +122,22 @@ console.log(me['favoriteAnimal']); //braket notation
 // I was able to complete the exercises with ease. The only tricky one was number 11. 
 
 
+// 4 Additional Exercises: 
+
+//Create an empty object user.
+//Add the property name with the value John.
+//Add the property surname with the value Smith.
+//Change the value of the name to Pete.
+//Remove the property name from the object.
+
+const user = {
+  name: "John",
+  surname: "Smith"
+}; 
+
+user.name = "Pete"; 
+delete user.name; 
+
+
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
